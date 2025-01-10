@@ -20,3 +20,5 @@ async function fetchFact() {
 
 // Fetch a new quote when the page loads
 fetchFact();
+// Add event listener to the quote container for single click
+document.getElementById('loadquote').addEventListener('click', fetchFact);
